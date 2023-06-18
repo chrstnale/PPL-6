@@ -57,7 +57,7 @@ export default function UpdateForm({
     };
 
     const res = await axios.put(
-      `http://localhost:5000/api/book/${initialData._id}`,
+      `https://deploy-web-muhamadthoriqahnaf.vercel.app/api/book/${initialData._id}`,
       data
     );
 

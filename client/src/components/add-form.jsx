@@ -46,7 +46,7 @@ export default function AddForm({setRefreshSignal}) {
     console.log("data sebelum post", data);
 
     await axios
-      .post("http://localhost:5000/api/book", data)
+      .post("https://deploy-web-muhamadthoriqahnaf.vercel.app/api/book", data)
       .catch(function (error) {
         console.log(error);
       });
@@ -153,6 +153,7 @@ export default function AddForm({setRefreshSignal}) {
 
               <div class="flex justify-center">
                 <button
+                  id="tambahModal"
                   class="bg-green border border-black break-words text-white font-medium text-xs sm:text-sm md:text-md px-4 py-1 rounded hover:bg-black transition-colors"
                   onClick={(e) => submitForm(e)}
                 >
