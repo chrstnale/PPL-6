@@ -6,6 +6,13 @@
   Repository ini berisikan MyLibrary, aplikasi Web yang pembukuan Novel/Buku yang telah ditambahkan program untuk mendemonstrasikan End to End Testing menggunakan Cypress.
 </p>
 
+## Anggota Kelompok
+|No   |   Nama     |   NIM     |
+|----|------------|-----------|
+|1. | Luthfi Izzuddin Hanif     | 20/463605/TK/51597 |
+|2. | Muhamad Thoriq Ahnaf      | 20/460553/TK/51142 |
+|3. | Christian Ale Perdana     | 20/463596/TK/51588
+
 ## Source code:
 https://github.com/chrstnale/PPL-6
 
